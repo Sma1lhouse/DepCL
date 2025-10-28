@@ -1,6 +1,6 @@
 
 
-<div align="center" font-size:35px>
+<div align="center">
   <b>Data-Segmentation Prompt based Continual Learning Framework for Online Spatio-Temporal Prediction (DepCL) </b>
 </div>
 
@@ -68,5 +68,6 @@ You can run a specific method on a specific dataset separately using script as f
 # run DepCL on PEMS-Stream
 python main_revise.py --conf conf/PEMS/depcl.json  --method DepCL --gpuid 0 --seed 0
 ```
+
 
 
