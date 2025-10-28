@@ -1,17 +1,16 @@
 
 
-<div align="center" style="font-size:28px;">
+<div align="center" style="font-size:35px;">
   <b>Data-Segmentation Prompt based Continual Learning Framework for Online Spatio-Temporal Prediction (DepCL) </b>
 </div>
+
 
 
 <div align="center">
   This is a PyTorch implementation of DepC.
 </div>
 
-### Introduction
-
----
+## Introduction
 
 > Dynamic spatio-temporal networks face critical challenges, including catastrophic forgetting of historical patterns and the prohibitive cost of retraining on evolving data.   To address these issues, we propose DepCL, a novel data-segmentation prompt–based continual learning framework. DepCL partitions nodes into homogeneous clusters and assigns exclusive, lightweight prompts to each, enabling efficient model adaptation by only retrieving and fine-tuning these prompts.   This partition-and-retrieve paradigm is made robust by a Gradient Projection–based Knowledge Balance mechanism to preserve stability and a Density-Aware Sample Alignment strategy to mitigate representation conflicts from node imbalance.
 
@@ -20,11 +19,9 @@
 </p>
 
 
-### Preparations
+## Preparations
 
----
-
-#### Settings
+### Settings
 
 The model is implemented using Python3 with core dependencies as follows:
 
@@ -37,7 +34,7 @@ numpy=1.21.5
 scikit-learn=1.0.2 
 ```
 
-#### Datasets
+### Datasets
 
 Our datasets are also available on [Google Drive](https://drive.google.com/drive/folders/1ap_OTKU3yVpxzFAjgCVZIrXBCah1PnmF?usp=sharing).
 
@@ -45,10 +42,11 @@ Our datasets are also available on [Google Drive](https://drive.google.com/drive
 
 ```
 └── DepCL
-         ├── conf
+         ├── data
 			 ├── AIR
 			 ├── ENERGY-Wind
 			 └── PEMS
+		 ├── conf
          ├── log
          ├── src
          	 ├── dataer
@@ -62,9 +60,7 @@ Our datasets are also available on [Google Drive](https://drive.google.com/drive
 
 
 
-### Model Training
-
----
+## Model Training
 
 You can run a specific method on a specific dataset separately using script as follows:
 
