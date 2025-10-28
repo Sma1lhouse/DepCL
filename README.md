@@ -4,7 +4,7 @@
 
 
 <div align="center">
-  This is a PyTorch implementation of DepC.
+  This is a PyTorch implementation of DepCL.
 </div>
 
 ## Introduction
@@ -65,5 +65,6 @@ You can run a specific method on a specific dataset separately using script as f
 # run DepCL on PEMS-Stream
 python main_revise.py --conf conf/PEMS/depcl.json  --method DepCL --gpuid 0 --seed 0
 ```
+
 
 
