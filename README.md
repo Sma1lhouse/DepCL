@@ -35,7 +35,7 @@ scikit-learn=1.0.2
 
 Our datasets are also available on [Google Drive](https://drive.google.com/drive/folders/1ap_OTKU3yVpxzFAjgCVZIrXBCah1PnmF?usp=sharing).
 
-#### Project Structure
+### Project Structure
 
 ```
 └── DepCL
@@ -65,6 +65,7 @@ You can run a specific method on a specific dataset separately using script as f
 # run DepCL on PEMS-Stream
 python main_revise.py --conf conf/PEMS/depcl.json  --method DepCL --gpuid 0 --seed 0
 ```
+
 
 
 
